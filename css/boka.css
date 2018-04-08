@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/background/background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1 {
+    color: red;
+    margin: 0;
+    text-align: center;
+}
+header h3 {
+    color: red;
+    margin: 0;
+    text-align: center;
+}
+.menu {
+    text-align: right;
+    padding-right: 200px; 
+    margin: 0;
+}
+
+.menu menu {
+    margin: 0;
+}
+.menu .start {
+    color: red;
+    margin: 0;
+}
+.menu .shop {
+    color: red;
+    margin: 0;
+}
+.menu menu button .shop {
+    text-align: right;
+}
+a:hover {
+    background-color: grey;
+}
+footer {
+    color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
